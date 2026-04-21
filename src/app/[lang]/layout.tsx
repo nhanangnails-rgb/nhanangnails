@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Lato } from "next/font/google";
+import { Playfair_Display, Lato, Dancing_Script } from "next/font/google";
 import "../globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -15,6 +15,12 @@ const lato = Lato({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
   variable: "--font-lato",
+  display: "swap",
+});
+
+const dancingScript = Dancing_Script({
+  subsets: ["latin", "vietnamese"],
+  variable: "--font-script",
   display: "swap",
 });
 
@@ -36,7 +42,7 @@ export default async function RootLayout({
 
   return (
     <html lang={lang} className="scroll-smooth" suppressHydrationWarning>
-      <body suppressHydrationWarning className={`${playfair.variable} ${lato.variable} font-body bg-white text-gray-800 antialiased`}>
+      <body suppressHydrationWarning className={`${playfair.variable} ${lato.variable} ${dancingScript.variable} font-body bg-white text-gray-800 antialiased`}>
         <Navbar dict={dict.navbar} lang={lang} />
         {children}
         <Footer dict={dict.footer} />

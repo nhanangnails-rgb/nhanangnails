@@ -40,10 +40,8 @@ export default function HeroSlider({ dict }: { dict: any }) {
       {/* Content */}
       <div className="relative z-30 max-w-3xl px-6 pt-20">
         <h1 
-          className="text-white text-5xl md:text-7xl font-bold mb-8 tracking-wider uppercase"
-          style={{ 
-            textShadow: "0 0 5px rgba(255,255,255,0.8), 0 0 20px var(--color-primary), 0 0 40px var(--color-primary)" 
-          }}
+          className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#fff0f2] to-[var(--color-primary)] text-7xl md:text-8xl lg:text-[10rem] font-script mb-6 py-4 leading-tight"
+          style={{ filter: "drop-shadow(0 4px 10px rgba(0,0,0,0.3))" }}
         >
           {dict.title}
         </h1>

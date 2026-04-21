@@ -7,6 +7,7 @@
   
   --font-heading: var(--font-playfair);
   --font-body: var(--font-lato);
+  --font-script: var(--font-script);
 }
 
 @layer base {

@@ -7,17 +7,8 @@ import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 export default function Navbar({ dict, lang }: { dict: any; lang: string }) {
-  const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   // Close menu when user clicks a link
   const closeMenu = () => setIsMobileMenuOpen(false);
@@ -43,20 +34,14 @@ export default function Navbar({ dict, lang }: { dict: any; lang: string }) {
   return (
     <>
       <nav
-        className={cn(
-          "fixed top-0 w-full z-50 transition-all duration-300 px-6 py-5 md:px-12 flex justify-between items-center bg-white",
-          scrolled ? "py-3 shadow-md" : "shadow-sm"
-        )}
+        className="fixed top-0 w-full z-50 px-6 py-3 md:px-12 flex justify-between items-center bg-white shadow-sm"
       >
         <div className="flex items-center gap-4">
           <Link href={`/${lang}/#home`} className="flex items-center gap-2 relative z-50" onClick={closeMenu}>
             <img 
               src="/images/logo.png" 
               alt="Nhà Nàng Nails" 
-              className={cn(
-                "w-auto object-contain transition-all duration-300",
-                scrolled ? "h-12 md:h-16" : "h-16 md:h-24"
-              )} 
+              className="w-auto object-contain h-12 md:h-16"
             />
           </Link>
         </div>

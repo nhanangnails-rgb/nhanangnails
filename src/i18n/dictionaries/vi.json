@@ -10,12 +10,12 @@
     "switchLang": "EN"
   },
   "hero": {
-    "title": "Đánh thức vẻ đẹp tiềm ẩn",
-    "subtitle": "Không gian thư giãn đẳng cấp mang đến vẻ đẹp hoàn hảo cho đôi tay của bạn.",
+    "title": "Trạm Dừng Bình Yên",
+    "subtitle": "Trang sức lộng lẫy nhất của phụ nữ chính là đôi tay. Không gian thư giãn chuẩn mực đánh thức trọn vẹn mọi giác quan của phái đẹp.",
     "button": "Đặt lịch qua Messenger"
   },
   "services": {
-    "title": "Dịch Vụ Của Chúng Tôi",
+    "title": "Dịch Vụ Của Nhà Nàng",
     "subtitle": "Trải nghiệm các dịch vụ chăm sóc sắc đẹp cao cấp trong không gian thư giãn tuyệt đối.",
     "items": [
       {
@@ -34,7 +34,7 @@
   },
   "combos": {
     "title": "Bảng Giá & Combo",
-    "subtitle": "Lựa chọn gói dịch vụ tiết kiệm và phù hợp nhất dành riêng cho bạn.",
+    "subtitle": "Lựa chọn gói dịch vụ tiết kiệm và phù hợp nhất dành riêng cho Nàng.",
     "note": "(Combo có thể thay đổi theo thời gian. Vui lòng cập nhật trên fanpage hoặc liên hệ cho Nhà Nàng để biết chương trình chính xác nhất.)",
     "imageMissing": "Chưa có hình nền"
   },
@@ -65,7 +65,7 @@
   },
   "homeBlog": {
     "title": "Góc Của Nàng",
-    "subtitle": "Cập nhật những xu hướng Nail Mới và bí quyết chăm sóc sắc đẹp dành riêng cho bạn.",
+    "subtitle": "Cập nhật những xu hướng Nail mới và bí quyết chăm sóc sắc đẹp dành riêng cho bạn.",
     "viewAll": "Tất cả bài viết",
     "readMore": "Xem chi tiết"
   },
