@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "combos": "Bảng Giá & Combo",
+    "gallery": "Thư Viện Ảnh",
+    "blog": "Blog",
+    "location": "Địa chỉ",
+    "bookNow": "Đặt lịch",
+    "switchLang": "EN"
+  },
+  "hero": {
+    "title": "Đánh thức vẻ đẹp tiềm ẩn",
+    "subtitle": "Không gian thư giãn đẳng cấp mang đến vẻ đẹp hoàn hảo cho đôi tay của bạn.",
+    "button": "Đặt lịch qua Messenger"
+  },
+  "services": {
+    "title": "Dịch Vụ Của Chúng Tôi",
+    "subtitle": "Trải nghiệm các dịch vụ chăm sóc sắc đẹp cao cấp trong không gian thư giãn tuyệt đối.",
+    "items": [
+      {
+        "title": "Chăm sóc móng",
+        "desc": "Cắt da, dũa form, sơn gel chất lượng cao."
+      },
+      {
+        "title": "Nghệ thuật Nail",
+        "desc": "Vẽ móng 3D, đính đá pha lê, thiết kế độc quyền."
+      },
+      {
+        "title": "Gội đầu thư giản",
+        "desc": "Thảo dược thiên nhiên, thư giãn với hương thơm dịu nhẹ."
+      }
+    ]
+  },
+  "combos": {
+    "title": "Bảng Giá & Combo",
+    "subtitle": "Lựa chọn gói dịch vụ tiết kiệm và phù hợp nhất dành riêng cho bạn.",
+    "note": "(Combo có thể thay đổi theo thời gian. Vui lòng cập nhật trên fanpage hoặc liên hệ cho Nhà Nàng để biết chương trình chính xác nhất.)",
+    "imageMissing": "Chưa có hình nền"
+  },
+  "gallery": {
+    "title": "Tác Phẩm Thực Tế",
+    "subtitle": "Chiêm ngưỡng những bộ móng nghệ thuật tuyệt đẹp được thực hiện bởi đôi bàn tay tỉ mỉ của thợ Nhà Nàng Nails."
+  },
+  "location": {
+    "title": "Hãy Đến Nhà Nàng",
+    "subtitle": "Đến gặp chúng mình và cùng nhau làm đẹp nha. Dưới đây là cách tìm thấy Nhà Nàng.",
+    "addressTitle": "Địa chỉ",
+    "addressVal": "Đối diện 002 Lô D chung cư Phạm Viết Chánh, Bình Thạnh, HCM",
+    "openTitle": "Giờ mở cửa",
+    "openVal": "9:00 AM - 9:00 PM (Làm cả T7, CN)",
+    "phoneTitle": "Hotline",
+    "phoneVal": "0965 414 424 (Zalo/iMessage)",
+    "socialsTitle": "Fanpage",
+    "bookButton": "Chat Đặt Lịch Ngay"
+  },
+  "footer": {
+    "desc": "Nơi vẻ đẹp của bạn được thức tỉnh. Cung cấp các dịch vụ Nail cao cấp, thư giãn tâm hồn.",
+    "links": "Liên kết nhanh",
+    "servicesTitle": "Dịch vụ",
+    "address": "Đối diện 002 Lô D chung cư Phạm Viết Chánh, Bình Thạnh, HCM",
+    "rights": "Bản quyền thuộc về Nhà Nàng Nails.",
+    "gallery": "Thư Viện Ảnh",
+    "contact": "Liên hệ"
+  },
+  "homeBlog": {
+    "title": "Góc Của Nàng",
+    "subtitle": "Cập nhật những xu hướng Nail Mới và bí quyết chăm sóc sắc đẹp dành riêng cho bạn.",
+    "viewAll": "Tất cả bài viết",
+    "readMore": "Xem chi tiết"
+  },
+  "blog": {
+    "title": "Góc Của Nàng",
+    "subtitle": "Chia sẻ kinh nghiệm làm đẹp, chăm sóc móng và bắt trend xu hướng Nail 2026.",
+    "readMore": "Xem chi tiết",
+    "back": "Trở về Góc Của Nàng",
+    "writtenBy": "✨ Viết bởi: Nhà Nàng Nails & Beauty",
+    "missingCover": "Chưa có ảnh bìa"
+  }
+}

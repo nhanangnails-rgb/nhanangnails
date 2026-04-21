@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "combos": "Pricing & Combos",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "location": "Location",
+    "bookNow": "Book Now",
+    "switchLang": "VI"
+  },
+  "hero": {
+    "title": "Awaken Your Hidden Beauty",
+    "subtitle": "A premium relaxing space bringing perfection to your hands.",
+    "button": "Book via Messenger"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Experience premium beauty treatments in absolute relaxation.",
+    "items": [
+      {
+        "title": "Nail Care",
+        "desc": "Cuticle trim, shaping, high-quality gel polish."
+      },
+      {
+        "title": "Nail Art",
+        "desc": "3D nail drawing, crystal rhinestones, bespoke designs."
+      },
+      {
+        "title": "Herbal Hair Spa",
+        "desc": "Natural herbs, relaxing with gentle fragrance."
+      }
+    ]
+  },
+  "combos": {
+    "title": "Pricing & Combos",
+    "subtitle": "Choose the most economical and suitable service packages tailored for you.",
+    "note": "(Combos may change over time. Please check our Fanpage or contact us for the latest deals.)",
+    "imageMissing": "No wallpaper yet"
+  },
+  "gallery": {
+    "title": "Real Artworks",
+    "subtitle": "Admire stunning nail art beautifully crafted by the meticulous hands of our Artists."
+  },
+  "location": {
+    "title": "Visit Nhà Nàng",
+    "subtitle": "Come meet us and let's get gorgeous together. Here is how to find us.",
+    "addressTitle": "Address",
+    "addressVal": "Opposite 002 Block D, Pham Viet Chanh apartment building, Binh Thanh, HCMC",
+    "openTitle": "Working Hours",
+    "openVal": "9:00 AM - 9:00 PM (Open Weekends)",
+    "phoneTitle": "Hotline",
+    "phoneVal": "0965 414 424 (iMessage/Zalo)",
+    "socialsTitle": "Social Media",
+    "bookButton": "Chat to Book Now"
+  },
+  "footer": {
+    "desc": "Where your beauty is awakened. Providing premium Nail services and holistic relaxation.",
+    "links": "Quick Links",
+    "servicesTitle": "Services",
+    "address": "Opposite 002 Block D, Pham Viet Chanh apartment building, Binh Thanh, HCMC",
+    "rights": "All rights reserved. Nhà Nàng Nails.",
+    "gallery": "Gallery",
+    "contact": "Salon"
+  },
+  "homeBlog": {
+    "title": "Beauty Insights",
+    "subtitle": "Stay updated with the latest Nail trends and exclusive beauty tips curated for you.",
+    "viewAll": "View all articles",
+    "readMore": "Read more"
+  },
+  "blog": {
+    "title": "Nàng's Corner",
+    "subtitle": "Sharing beauty tips, nail care, and catching up with 2026 Nail trends.",
+    "readMore": "Read more",
+    "back": "Back to Nàng's Corner",
+    "writtenBy": "✨ Written by: Nhà Nàng Nails & Beauty",
+    "missingCover": "Missing Cover"
+  }
+}
