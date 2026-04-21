@@ -16,17 +16,17 @@ export default function LocationContact({ dict }: { dict: any }) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Info */}
           <div className="space-y-8 p-10 bg-gray-50 rounded-3xl border border-gray-100">
-            <div className="flex items-start gap-4">
+            <a href="https://maps.app.goo.gl/ruzR8dRKhPj6a7oR7" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group cursor-pointer">
               <div className="bg-[var(--color-primary)]/10 p-4 rounded-2xl shrink-0">
-                <MapPin className="w-8 h-8 text-[var(--color-primary)]" />
+                <MapPin className="w-8 h-8 text-[var(--color-primary)] group-hover:scale-110 transition-transform" />
               </div>
               <div>
                 <h4 className="font-bold text-xl mb-2 text-gray-800">{dict.addressTitle}</h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed group-hover:text-[var(--color-primary)] transition-colors">
                   {dict.addressVal}
                 </p>
               </div>
-            </div>
+            </a>
 
             <div className="flex items-start gap-4">
               <div className="bg-[var(--color-primary)]/10 p-4 rounded-2xl shrink-0">
@@ -38,15 +38,15 @@ export default function LocationContact({ dict }: { dict: any }) {
               </div>
             </div>
 
-            <div className="flex items-start gap-4">
+            <a href="tel:0965414424" className="flex items-start gap-4 group cursor-pointer">
               <div className="bg-[var(--color-primary)]/10 p-4 rounded-2xl shrink-0">
-                <Phone className="w-8 h-8 text-[var(--color-primary)]" />
+                <Phone className="w-8 h-8 text-[var(--color-primary)] group-hover:scale-110 transition-transform" />
               </div>
               <div>
                 <h4 className="font-bold text-xl mb-2 text-gray-800">{dict.phoneTitle}</h4>
-                <p className="text-gray-600 font-bold text-lg">{dict.phoneVal}</p>
+                <p className="text-gray-600 font-bold text-lg group-hover:text-[var(--color-primary)] transition-colors">{dict.phoneVal}</p>
               </div>
-            </div>
+            </a>
 
             <div className="flex items-center gap-4 pt-2">
               <a href="https://www.facebook.com/NhaNangNails" target="_blank" className="bg-[#1877F2]/10 p-4 rounded-2xl hover:bg-[#1877F2]/20 transition-colors cursor-pointer group">
