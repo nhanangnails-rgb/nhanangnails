@@ -32,7 +32,7 @@ export const blogsEn: BlogPost[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "giai-ma-suc-hut-cua-dich-vu-goi-dau-thu",
+    id: "giai-ma-suc-hut-cua-dich-vu-goi-dau-thu-gian",
     title: "Decoding the Appeal of Nourishing Hair Spa at Nhà Nàng",
     excerpt: "Herbal hair spa is not just about cleaning hair but also a mental therapy session, deeply relieving stress, highly loved by customers.",
     content: `

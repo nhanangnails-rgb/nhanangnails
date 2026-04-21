@@ -40,7 +40,7 @@ export const blogs: BlogPost[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "giai-ma-suc-hut-cua-dich-vu-goi-dau-thu",
+    id: "giai-ma-suc-hut-cua-dich-vu-goi-dau-thu-gian",
     title: "Giải Mã Sức Hút Của Dịch Vụ Gội Đầu Thư Giãn Tại Nhà Nàng",
     excerpt: "Gội đầu dưỡng sinh không chỉ là làm sạch tóc mà còn là một liệu trình trị liệu tinh thần, giải tỏa căng thẳng hiệu quả được nhiều khách hàng yêu thích.",
     content: `
