@@ -62,7 +62,7 @@ export default function Navbar({ dict, lang }: { dict: any; lang: string }) {
         </div>
 
         {/* Mobile Hamburger Button */}
-        <div className="flex items-center gap-4 md:hidden">
+        <div className="flex items-center gap-4 lg:hidden">
             <Link
               href={switchLangHref()}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-gray-100 text-gray-800 text-xs font-bold hover:bg-gray-200 transition-colors z-50 relative"
@@ -82,7 +82,7 @@ export default function Navbar({ dict, lang }: { dict: any; lang: string }) {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-8 items-center text-sm font-bold uppercase tracking-wider">
+        <ul className="hidden lg:flex gap-8 items-center text-sm font-bold uppercase tracking-wider">
           <li>
             <Link href={`/${lang}/#home`} className="hover:text-[var(--color-primary)] transition-colors">{dict.home}</Link>
           </li>
@@ -105,7 +105,7 @@ export default function Navbar({ dict, lang }: { dict: any; lang: string }) {
             <Link
               href="https://m.me/nhanangnails"
               target="_blank"
-              className="bg-gray-800 text-white hover:bg-[var(--color-primary)] hover:text-white px-6 py-2 rounded-full transition-colors"
+              className="bg-gray-800 text-white hover:bg-[var(--color-primary)] hover:text-white px-6 py-2 rounded-full transition-colors inline-block whitespace-nowrap"
             >
               {dict.bookNow}
             </Link>
@@ -128,7 +128,7 @@ export default function Navbar({ dict, lang }: { dict: any; lang: string }) {
       {/* Fullscreen Mobile Menu Overlay */}
       <div 
         className={cn(
-          "fixed inset-0 bg-white/95 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-all duration-500 ease-in-out md:hidden",
+          "fixed inset-0 bg-white/95 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-all duration-500 ease-in-out lg:hidden",
           isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         )}
       >
